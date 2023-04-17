@@ -1,7 +1,5 @@
 const loginForm = document.querySelector("form.login-form");
 
-// const submitBtn = document.querySelector('[type="submit"]');
-
 loginForm.addEventListener("submit", (event) => {
   // добавляем обработчик события submit
   event.preventDefault(); // отменяем отправку формы по умолчанию
