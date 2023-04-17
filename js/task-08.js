@@ -11,7 +11,7 @@ loginForm.addEventListener("submit", (event) => {
 
   if (email === "" || password === "") {
     // проверяем, что поля не пустые
-    alert("文盲？用口径笔迹填写所有字段!"); // выводим сообщение, если поля не заполнены
+    alert("Заповніть всі поля форми"); // выводим сообщение, если поля не заполнены
   } else {
     const formData = {}; // создаем пустой объект для сбора данных формы
     for (let field of loginForm.elements) {
